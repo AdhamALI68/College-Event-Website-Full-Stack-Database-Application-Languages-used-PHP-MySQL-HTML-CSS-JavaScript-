@@ -1,0 +1,48 @@
+1. Requirements: 
+WAMP Server (or XAMPP, MAMP, etc.)
+
+PHP 7+
+
+MySQL 5.7+
+
+A web browser
+
+---------------------------------------------------------------
+2. Setup Steps: 
+
+Step 1: Install WAMP
+Download and install WAMP from https://www.wampserver.com
+Start the WAMP server and ensure Apache and MySQL are running (green icon)
+
+
+Step 2: Place Project Files
+Copy the project folder (e.g., college_events) into:
+C:\wamp64\www\ (for WAMP)
+or htdocs/ (for XAMPP)
+
+Step 3: Import the Database
+Open phpMyAdmin (http://localhost/phpmyadmin)
+
+Create a new database (e.g., college_events)
+
+Click Import, choose the file AdMK_Database.sql, and run it
+
+Step 4: Configure Database Connection
+Open db_connection.php (or wherever your connection file is)
+
+Update these lines if needed:
+
+php
+Copy
+Edit
+$host = 'localhost';
+$username = 'root';
+$password = ''; // Default for WAMP
+$database = 'college_events';
+
+
+Step 5: Run the Project
+Open your browser and go to:
+http://localhost/college_events/register.php
+(or any starting page like login.php)
+

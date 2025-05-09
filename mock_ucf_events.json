@@ -1,0 +1,20 @@
+[
+    {
+        "title": "UCF Tech Talk",
+        "starts": "2025-04-10T14:00:00",
+        "location": "Tech Hall Room 101",
+        "url": "https://events.ucf.edu/event/00001"
+    },
+    {
+        "title": "Innovation Showcase",
+        "starts": "2025-04-12T11:00:00",
+        "location": "Student Union",
+        "url": "https://events.ucf.edu/event/00002"
+    },
+    {
+        "title": "AI in Academia Seminar",
+        "starts": "2025-04-15T09:30:00",
+        "location": "Engineering Building Auditorium",
+        "url": "https://events.ucf.edu/event/00003"
+    }
+]
